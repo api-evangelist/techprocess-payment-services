@@ -1,8 +1,29 @@
 aid: techprocess-payment-services
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/techprocess-payment-services.png
 name: TechProcess Payment Services
-description: TechProcess Payment Services is a company surfaced as a portfolio company of battery-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  TechProcess Payment Services is an Indian digital-payments pioneer that has
+  been building and operating cloud-based electronic-payment platforms since
+  2000, when it launched BillJunction.com, India's first electronic bill
+  presentment and payment service. Its payment gateway supports card payments,
+  Net-banking, NACH, NEFT/RTGS, IMPS, UPI and e-wallets for merchants across
+  India. The business is now part of Worldline India (ePayments India), whose
+  merchant checkout product is Paynimo, offering hosted and embeddable checkout,
+  native mobile SDKs, and 20+ e-commerce platform plugins so developers can
+  accept digital payments with a few lines of code. Originally a Battery
+  Ventures portfolio company, it was acquired by Ingenico Group and folded into
+  Worldline.
 url: https://raw.githubusercontent.com/api-evangelist/techprocess-payment-services/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +31,53 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- Payments
+- Payment Gateway
+- Financial Services
+- India
+- Checkout
+- E-commerce
+- NACH
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis:
+- name: Paynimo Payment Gateway (Worldline India)
+  description: >-
+    Merchant payment-gateway and checkout API for the TechProcess / Worldline
+    India (Paynimo) platform — card, Net-banking, NACH, UPI, IMPS and e-wallet
+    payment collection via hosted/embeddable checkout and server + mobile SDKs.
+  humanURL: https://www.paynimo.com/paynimocheckout/docs/
+  baseURL: https://www.paynimo.com
+  properties:
+  - type: Documentation
+    url: https://www.paynimo.com/paynimocheckout/docs/
+  - type: DeveloperPortal
+    url: https://worldline.com/en-in/home/top-navigation/developers
+common:
+- type: DomainSecurity
+  url: security/techprocess-payment-services-domain-security.yml
+- type: DeveloperPortal
+  url: https://worldline.com/en-in/home/top-navigation/developers
+- type: Documentation
+  url: https://www.paynimo.com/paynimocheckout/docs/
+- type: GitHubOrganization
+  url: https://github.com/Worldline-Ind
+- type: Packages
+  url: packages/techprocess-payment-services-packages.yml
+- type: SDKs
+  url: packages/techprocess-payment-services-packages.yml
+- type: Components
+  url: components/techprocess-payment-services-components.yml

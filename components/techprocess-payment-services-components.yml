@@ -1,0 +1,37 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.paynimo.com/paynimocheckout/docs/
+notes: >-
+  Client-side / embeddable checkout surfaces for the TechProcess (Worldline
+  India / Paynimo) payment gateway. Distinct from the server SDKs catalogued in
+  packages/. The Paynimo Checkout is a hosted/embeddable JS widget plus native
+  mobile checkout SDKs, and there are 20+ prebuilt e-commerce platform plugins.
+components:
+  - family: Paynimo Checkout
+    kind: embeddable-widget
+    components:
+      - name: Paynimo Checkout.js (Web)
+        platform: web
+        url: https://www.paynimo.com/paynimocheckout/docs/#online
+      - name: Paynimo Checkout (Android)
+        platform: android
+        url: https://www.paynimo.com/paynimocheckout/docs/?device=android#online
+      - name: Paynimo Checkout (iOS)
+        platform: ios
+        url: https://www.paynimo.com/paynimocheckout/docs/?device=ios#online
+  - family: E-commerce platform plugins
+    kind: prebuilt-plugin
+    count: 20+
+    components:
+      - name: WooCommerce
+      - name: Shopify
+      - name: Magento 2.X
+      - name: Magento 1.9.X
+      - name: PrestaShop
+      - name: Laravel
+      - name: CS-Cart
+      - name: OpenCart
+      - name: Ubercart (Drupal)
+      - name: NopCommerce 4.5
+      - name: WordPress Standalone
+      - name: WHMCS

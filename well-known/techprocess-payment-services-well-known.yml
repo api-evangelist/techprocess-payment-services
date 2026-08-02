@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of /.well-known/ on gateway + corporate hosts
+hosts:
+- host: https://www.paynimo.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://worldline.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 406
+  - path: /.well-known/openid-configuration
+    status: 406
+  - path: /.well-known/oauth-authorization-server
+    status: 406
+  - path: /.well-known/api-catalog
+    status: 406
+  - path: /.well-known/ai-plugin.json
+    status: 406
+notes: >-
+  No /.well-known discovery documents are published on the Paynimo gateway host
+  or the Worldline corporate host (all probes returned 404/406). No SecurityTxt,
+  OpenID, OAuth authorization-server, api-catalog, or ai-plugin surface found.

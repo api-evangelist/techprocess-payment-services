@@ -1,0 +1,59 @@
+generated: '2026-07-21'
+method: searched
+source: https://worldline.com/en-in/home/top-navigation/developers
+notes: >-
+  TechProcess Payment Services is the Indian payment-gateway business now
+  operating as Worldline India / ePayments India, whose merchant checkout
+  product is Paynimo. The first-party client libraries below are published on
+  the Worldline India ePayments GitHub organizations and on pub.dev, and are the
+  official integration SDKs for the TechProcess / Paynimo payment gateway.
+packages:
+  - language: dart
+    registry: pub.dev
+    name: weipl_checkout_flutter
+    url: https://pub.dev/packages/weipl_checkout_flutter
+    install: flutter pub add weipl_checkout_flutter
+    official: true
+    notes: Official Worldline India (WEIPL) Paynimo Checkout Flutter plugin.
+  - language: javascript
+    registry: github
+    name: PHP-CHECKOUTJS
+    url: https://github.com/Worldline-Ind/PHP-CHECKOUTJS
+    official: true
+    notes: PHP server-side Checkout.js integration sample.
+  - language: java
+    registry: github
+    name: Worldline-Ind/JAVA
+    url: https://github.com/Worldline-Ind/JAVA
+    official: true
+    notes: Java server-side Paynimo checkout integration.
+  - language: csharp
+    registry: github
+    name: Worldline-Ind/DOT-NET
+    url: https://github.com/Worldline-Ind/DOT-NET
+    official: true
+    notes: .NET server-side Paynimo checkout integration.
+  - language: php
+    registry: github
+    name: Worldline-Ind/PHP-CHECKOUTJS
+    url: https://github.com/Worldline-Ind/PHP-CHECKOUTJS
+    official: true
+    notes: PHP server-side Paynimo checkout integration.
+  - language: ruby
+    registry: github
+    name: Worldline-Ind/ROR
+    url: https://github.com/Worldline-Ind/ROR
+    official: true
+    notes: Ruby on Rails server-side Paynimo checkout integration.
+  - language: python
+    registry: github
+    name: PYTHON-CHECKOUTJS
+    url: https://github.com/Worldline-Ind/PYTHON-CHECKOUTJS
+    official: true
+    notes: Python server-side Paynimo checkout integration.
+  - language: dart
+    registry: github
+    name: weipl-checkout-cordova
+    url: https://github.com/Worldline-ePayments-India/weipl-checkout-cordova
+    official: true
+    notes: Cordova / Ionic / PhoneGap Paynimo Checkout plugin.
